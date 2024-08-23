@@ -1,6 +1,6 @@
 import pygame
 import constants
-from models.Player import Player
+from src.Player import Player
 
 
 def main():
