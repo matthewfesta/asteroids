@@ -24,3 +24,7 @@ class Player(CircleShape):
     def update(self, dt):
         # sub-classes must override
         pass
+
+
+    def rotate(self, dt):
+        self.rotation += constants.PLAYER_TURN_SPEED * dt
