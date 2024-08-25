@@ -3,6 +3,7 @@ import constants
 from Player import Player
 from Asteroid import Asteroid
 
+
 def main():
     print("Starting asteroids!")
     pygame.init()
